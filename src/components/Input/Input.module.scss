@@ -1,7 +1,9 @@
 .input {
   padding: 5px;
   border: 1px solid black;
+  border-radius: 5px;
   transform: scale(1);
+  background-color: transparent;
   transition: border 250ms ease, transform 250ms ease;
   &:hover,
   &:focus {

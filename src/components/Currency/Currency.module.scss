@@ -1,8 +1,6 @@
 .tableCurrency {
   display: flex;
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+
   border: 2px solid black;
 }
 
