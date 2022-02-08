@@ -1,0 +1,11 @@
+.input {
+  padding: 5px;
+  border: 1px solid black;
+  transform: scale(1);
+  transition: border 250ms ease, transform 250ms ease;
+  &:hover,
+  &:focus {
+    border: 1px solid blue;
+    transform: scale(1.02);
+  }
+}

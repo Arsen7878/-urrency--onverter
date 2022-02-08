@@ -1,0 +1,11 @@
+.select {
+  padding: 5px;
+  margin-left: 5px;
+  border: 1px solid black;
+
+  transition: border 250ms ease;
+  &:hover,
+  &:focus {
+    border: 1px solid blue;
+  }
+}
